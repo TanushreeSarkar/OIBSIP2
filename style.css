@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  transition: background-color 0.5s ease;
+  --primary-color: #fff; /* white */
+  --secondary-color: #000; /* black */
+  --tertiary-color: #00f260;
+  --quaternary-color: #d50000;
+}
+
+body.light-mode {
+  background-color: var(--primary-color); /* white */
+}
+
+body.dark-mode {
+  background-color: var(--secondary-color); /* black */
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: repeat(4, 52.5px);
+  grid-template-rows: minmax(52.5px, auto) repeat(5, 52.5px);
+  min-height: 100vh;
+  background-color: var(--secondary-color); /* black */
+  padding: 10px;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  font-size: 15px;
+  background-color: var(--secondary-color); /* black */
+  border: 2px solid var(--primary-color); /* white */
+  color: var(--primary-color); /* white */
+  transition: background-color 0.5s ease;
+  padding: 5px 10px;
+}
+
+button:hover {
+  background-color: rgba(225, 225, 225, 70);
+  color: var(--secondary-color); /* black */
+}
+
+button.dark-mode {
+  background-color: var(--primary-color); /* white */
+  border: 2px solid var(--secondary-color); /* black */
+  color: var(--secondary-color); /* black */
+}
+
+.output {
+  grid-column: 1 / -1;
+  background-color: var(--secondary-color); /* black */
+  border-radius: 10px 10px 0 0;
+  word-wrap: break-word;
+  word-break: break-all;
+  -ms-word-break: break-all;
+  -ms-word-wrap: break-word;
+  color: var(--primary-color); /* white */
+  padding: 10px;
+  font-size: 18px;
+}
+
+.output.dark-mode {
+  background-color: var(--primary-color); /* white */
+  color: var(--secondary-color); /* black */
+}
+
+.overoutput {
+  background-color: var(--quaternary-color);
+  padding-right: 10px;
+  padding: 10px;
+  text-align: end;
+  font-size: 18px;
+  color: var(--primary-color); /* white */
+  min-height: 20px;
+}
+
+.tempoutput {
+  background-color: var(--secondary-color); /* black */
+  color: var(--primary-color); /* white */
+  font-size: 18px;
+  padding: 10px;
+  min-height: 20px;
+}
+
+.underoutput {
+  padding: 15px;
+  text-align: end;
+  font-size: 25px;
+  color: var(--primary-color); /* white */
+  min-height: 40px;
+}
+
+.underoutput.dark-mode {
+  color: var(--secondary-color); /* black */
+}
+
+.title {
+  text-align: center;
+  height: 30px;
+  padding-top: 10px;
+  font-size: 20px;
+  color: var(--primary-color); /* white */
+}
+
+.title.dark-mode {
+  color: var(--secondary-color); /* black */
+}
+
+/* added styles to change light and dark mode for the whole page */
+body.light-mode * {
+  color: var(--primary-color); /* white */
+  background-color: var(--secondary-color); /* black */
+}
+
+body.dark-mode * {
+  color: var(--secondary-color); /* black */
+  background-color: var(--primary-color); /* white */
+}
