@@ -11,7 +11,7 @@ Clone the Repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/Calci.git
+git clone [https://github.com/your-username/Calci.git](https://calci-gray-mu.vercel.app/)
 Open the Project:
 Use your preferred IDE (e.g., Visual Studio Code, IntelliJ IDEA) to open the project.
 
@@ -29,7 +29,7 @@ Submit a pull request.
 Credits:
 Owner: Tanushree Sarkar
 License:
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the[ LICENSE](https://github.com/TanushreeSarkar/OIBSIP/blob/main/LICENSE) file for details.
 
 Contact:
 For any inquiries or feedback, please contact Tanushree Sarkar at 2k22.csaiml.2212256@gmail.com
