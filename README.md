@@ -26,10 +26,12 @@ Create a new branch (git checkout -b feature/YourFeature).
 Commit your changes (git commit -am 'Add some feature').
 Push to the branch (git push origin feature/YourFeature).
 Submit a pull request.
+
 Credits:
 Owner: Tanushree Sarkar
+
 License:
-This project is licensed under the MIT License. See the[ LICENSE](https://github.com/TanushreeSarkar/OIBSIP/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License. See the[[ LICENSE]](https://github.com/TanushreeSarkar/OIBSIP2/blob/main/MIT%20License) file for details.
 
 Contact:
 For any inquiries or feedback, please contact Tanushree Sarkar at 2k22.csaiml.2212256@gmail.com
