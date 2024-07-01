@@ -35,3 +35,6 @@ This project is licensed under the MIT License. See the[[ LICENSE]](https://gith
 
 Contact:
 For any inquiries or feedback, please contact Tanushree Sarkar at 2k22.csaiml.2212256@gmail.com
+![Screenshot 2024-07-01 194856](https://github.com/TanushreeSarkar/OIBSIP2/assets/143641092/bb51428b-97cc-46eb-a65a-4ed764b51d28)
+![Screenshot 2024-07-01 194845](https://github.com/TanushreeSarkar/OIBSIP2/assets/143641092/91b5e895-d8ca-40c6-be25-6dce71919cc8)
+
